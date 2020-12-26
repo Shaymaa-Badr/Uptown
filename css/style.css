@@ -145,6 +145,40 @@ body {
   }
 }
 
+/* start services */
+.services{
+  position: relative;
+}
+.services h6{
+font-size: 12px;
+}
+.services .item i, .services h6{
+  color: #e86ed0;
+}
+.services .item h5{
+  font-weight: bold;
+  
+}
+.services h6:before {
+  position: absolute;
+  top: 13%;
+  left: 54.5%;
+  content: '';
+  width: 50px;
+  height: 1px;
+  background: #e86ed0;
+}
+.services h6:after {
+  position: absolute;
+  top: 13%;
+  left: 42%;
+  content: '';
+  width: 50px;
+  height: 1px;
+  background: #e86ed0;
+}
+/* end services */
+
 
 /* Blog Section  */
 
