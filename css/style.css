@@ -266,3 +266,106 @@ position: relative;
   color: #666;
   line-height: 1.8rem;
 }
+
+/*****Agent Section Style****/
+
+ 
+.spanHeader
+{
+ display: inline-block;
+ margin-bottom: 0;
+ color: #e86ed0;
+ font-size: 12px;
+ font-weight: 600;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ position: relative;
+}
+
+.spanHeader::before
+{
+ content:"";
+ position: absolute;
+ top: 50%;
+ right: -60px; 
+ transform: translateY(-50%);
+ width: 50px;
+ height: 1px;
+ margin-top: -1px;
+ background: #e86ed0;
+}
+.spanHeader::after{
+ position: absolute;
+top: 50%;
+left: -60px;
+content: '';
+
+transform: translateY(-50%);
+width: 50px;
+height: 1px;
+margin-top: -1px;
+background: #e86ed0;
+}
+.headAgents
+{
+ font-size: 40px;
+ font-weight: 600;
+
+}
+.agent
+{ 
+ 
+ position: relative;
+ width: 100%;
+ display: block;
+ z-index: 0;
+ margin-bottom: 40px;
+ overflow: hidden;
+}
+img{
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+.agentImge img 
+{
+ position: relative;
+ width: 100%;
+ display: block;
+ overflow: hidden;
+ z-index: 0;
+transition: transform 1s;
+}
+.agentImge img:hover
+{
+transform: scale(1.1);
+}
+.item-caption
+{
+ position: relative;
+
+ padding: 20px;
+ margin-top: -50px;
+ margin-left: 18px;
+ background: #fff;
+ width: 85%;
+}
+
+.agentName
+{
+ color: #000000;
+ font-weight: 500;
+ line-height: 1.3;
+ font-size: 20px;
+ margin-bottom: 0.5rem;
+font-family: inherit;
+}
+.listing
+{
+font-family: "Nunito Sans", Arial, sans-serif;
+font-size: 16px;
+line-height: 1.8;
+font-weight: 400;
+color: #666666;
+}
+/**End Agent Section**/
